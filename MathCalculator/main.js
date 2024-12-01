@@ -6,19 +6,23 @@ class Calculator {
     }
 
     add() {
-        console.log(`Result of the action ${this.a} + ${this.b} = ${this.a+this.b}`)
+        let result = this.a + this.b;
+        console.log(`Result of the action ${this.a} + ${this.b} = ${result}`)
     }
 
-    substract(a, b) {
-        console.log(`Result of the action ${this.a} - ${this.b} = ${this.a-this.b}`)
+    substract() {
+        let result = this.a - this.b;
+        console.log(`Result of the action ${this.a} - ${this.b} = ${result}`)
     }
 
     multiply() {
-        console.log(`Result of the action ${this.a} * ${this.b} = ${this.a*this.b}`)
+        let result = this.a * this.b;
+        console.log(`Result of the action ${this.a} * ${this.b} = ${result}`)
     }
 
     divided() {
-        console.log(`Result of the action ${this.a} / ${this.b} = ${(this.a/this.b).toFixed(2)}`)
+        let result = this.a / this.b;
+        console.log(`Result of the action ${this.a} / ${this.b} = ${result.toFixed(2)}`)
     }
 }
 
